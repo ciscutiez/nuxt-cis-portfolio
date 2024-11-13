@@ -1,6 +1,14 @@
+<script setup lang="ts">
+
+
+</script>
+
 <template>
   <div>
-
-    hello cis
+    <Navbar />
+    <main class="w-full">
+      <NuxtPage />
+    </main>
+    <Footer />
   </div>
 </template>
